@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Conceptos básicos'/>
+        <page name='Ciclo de vida'/>
+        <page name='Operadores'/>
+        <page name='Closures que escapan'/>
+        <page name='Tipo resultado'/>
+        <page name='Funciones de orden más alto'/>
+        <page name='Implementación de futuros'/>
+        <page name='Publicadores'/>
+        <page name='Operadores básicos'/>
+        <page name='Suscriptores'/>
+        <page name='Sujetos de valor actual'/>
+        <page name='Sujetos de paso a través'/>
+        <page name='Cancelar una suscripción'/>
+        <page name='Operadores de transformación'/>
+        <page name='Operadores de filtrado'/>
+        <page name='Operadores de combinación'/>
+        <page name='Operadores de secuencia'/>
+        <page name='Operadores que lanzan errores'/>
+        <page name='Operadores de depuración'/>
+        <page name='Redes por futuros'/>
+        <page name='Red por publicadores'/>
+        <page name='Red gestionando errores'/>
+        <page name='Notification Center'/>
+        <page name='Temporizadores'/>
+        <page name='KVO'/>
+        <page name='MVVM'/>
+        <page name='Recuperar datos'/>
+        <page name='Imágenes en lote'/>
+    </pages>
+</playground>
