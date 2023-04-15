@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Tipos y operadores'/>
+        <page name='Controles de flujo'/>
+        <page name='Opcionales'/>
+        <page name='Cadenas'/>
+        <page name='Arrays'/>
+        <page name='Diccionarios'/>
+        <page name='Sets'/>
+        <page name='Conversión de tipos'/>
+        <page name='Tuplas'/>
+    </pages>
+</playground>

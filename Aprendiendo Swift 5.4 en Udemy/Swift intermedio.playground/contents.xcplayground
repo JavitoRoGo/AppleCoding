@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Funciones'/>
+        <page name='Enums'/>
+        <page name='Clases'/>
+        <page name='Structs'/>
+        <page name='Fiabilidad'/>
+        <page name='Closures'/>
+        <page name='Encadenamiento'/>
+        <page name='Propiedades calculadas'/>
+        <page name='Protocolos'/>
+        <page name='MVC'/>
+        <page name='Extensiones'/>
+    </pages>
+</playground>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Control de errores'/>
+        <page name='Closures con throws'/>
+        <page name='Init con errores'/>
+        <page name='Try? y Try!'/>
+    </pages>
+</playground>
