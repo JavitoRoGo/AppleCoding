@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Intro'/>
+        <page name='Problemas'/>
+        <page name='Funcionamiento GCD'/>
+        <page name='Carga en lotes de red'/>
+        <page name='Integración de grupos'/>
+        <page name='Enums concurrentes'/>
+        <page name='Semáforos'/>
+        <page name='Cancelación de bloques'/>
+    </pages>
+</playground>
