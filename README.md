@@ -1,5 +1,5 @@
 # AppleCoding
-Teoría y proyectos creados según diferentes formaciones y masterclass de AppleCoding Academy.
+Teoría y proyectos creados según diferentes formaciones y masterclass de [AppleCoding](https://www.youtube.com/@applecoding/featured).
 
 Incluye la siguiente documentación y proyectos:
 
