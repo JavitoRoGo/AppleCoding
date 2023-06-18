@@ -9,3 +9,4 @@ Incluye la siguiente documentación y proyectos:
 * *MVCBestPractices*: basado en un tutorial de youtube.
 * *Programación funcional*: basado en el curso de Udemy.
 * *TutorialSwiftUI*: basado en un tutorial de youtube.
+* *VarianteTutorialSwiftUI* basado en directo de twitch, usando los patrones singleton y async/await.
