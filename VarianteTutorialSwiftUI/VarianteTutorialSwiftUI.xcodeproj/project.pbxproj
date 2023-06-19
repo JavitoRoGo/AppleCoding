@@ -14,6 +14,8 @@
 		441880752A3FB9D200A2AAAD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441880742A3FB9D200A2AAAD /* Model.swift */; };
 		441880772A3FBAE200A2AAAD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441880762A3FBAE200A2AAAD /* Persistence.swift */; };
 		441880792A3FBE4300A2AAAD /* EmpleadosVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441880782A3FBE4300A2AAAD /* EmpleadosVM.swift */; };
+		445B44BD2A4097EB00138782 /* EmpleadoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B44BC2A4097EB00138782 /* EmpleadoCell.swift */; };
+		445B44BF2A40A97F00138782 /* EmpleadoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B44BE2A40A97F00138782 /* EmpleadoDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		441880742A3FB9D200A2AAAD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		441880762A3FBAE200A2AAAD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		441880782A3FBE4300A2AAAD /* EmpleadosVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosVM.swift; sourceTree = "<group>"; };
+		445B44BC2A4097EB00138782 /* EmpleadoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoCell.swift; sourceTree = "<group>"; };
+		445B44BE2A40A97F00138782 /* EmpleadoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				441880662A3FB81100A2AAAD /* VarianteTutorialSwiftUIApp.swift */,
 				441880682A3FB81100A2AAAD /* ContentView.swift */,
+				445B44BC2A4097EB00138782 /* EmpleadoCell.swift */,
+				445B44BE2A40A97F00138782 /* EmpleadoDetail.swift */,
 				441880742A3FB9D200A2AAAD /* Model.swift */,
 				441880762A3FBAE200A2AAAD /* Persistence.swift */,
 				441880782A3FBE4300A2AAAD /* EmpleadosVM.swift */,
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445B44BD2A4097EB00138782 /* EmpleadoCell.swift in Sources */,
 				441880752A3FB9D200A2AAAD /* Model.swift in Sources */,
 				441880772A3FBAE200A2AAAD /* Persistence.swift in Sources */,
+				445B44BF2A40A97F00138782 /* EmpleadoDetail.swift in Sources */,
 				441880692A3FB81100A2AAAD /* ContentView.swift in Sources */,
 				441880792A3FBE4300A2AAAD /* EmpleadosVM.swift in Sources */,
 				441880672A3FB81100A2AAAD /* VarianteTutorialSwiftUIApp.swift in Sources */,

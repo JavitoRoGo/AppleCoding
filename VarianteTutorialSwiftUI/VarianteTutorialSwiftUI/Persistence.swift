@@ -25,4 +25,14 @@ final class Persistence {
     }
     
     // aquí iría la parte de guardado de los datos que añadamos o modifiquemos
+    
+    // ejemplo de autorización con basicAuth
+    func authBasic(username: String, password: String) async throws {
+        var request = URLRequest(url: url)
+        guard let auth = "\(username):\(password)".data(using: .utf8)?.base64EncodedString() else { return }
+        request.addValue(auth, forHTTPHeaderField: "Authorization")
+        let (data, response) = try await URLSession.shared.data(for: request)
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw URLError(.badURL) }
+        try JSONDecoder().decode([Empleado].self, from: data)
+    }
 }

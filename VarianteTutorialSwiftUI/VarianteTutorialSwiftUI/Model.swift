@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Empleado: Codable, Identifiable {
+struct Empleado: Codable, Identifiable, Hashable {
     let id: Int
     let username, firstName, lastName: String
     let gender: Gender
@@ -43,4 +43,8 @@ enum Department: String, Codable {
 enum Gender: String, Codable {
     case female = "Female"
     case male = "Male"
+}
+
+extension Empleado {
+    static let test = Empleado(id: 1, username: "pperez", firstName: "Pepito", lastName: "Pérez", gender: .male, email: "pperez@pperez.es", department: .engineering, address: "Su casa", avatar: URL(string: "https://robohash.org/solutaeadolor.png")!, zipcode: nil)
 }
