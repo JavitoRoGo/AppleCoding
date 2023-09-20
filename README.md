@@ -11,3 +11,4 @@ Incluye la siguiente documentación y proyectos:
 * *TutorialSwiftUI*: basado en un tutorial de youtube.
 * *VarianteTutorialSwiftUI*: basado en directo de twitch, usando los patrones singleton y async/await.
 * *TutorialSwiftData*: basado en directo de twitch, usando las nuevas funcionalidades de SwiftData y el patrón @Observable.
+* *TutorialiOS17_ObservationAPI*: basado en directo de twitch, usando la nueva API Observation.
