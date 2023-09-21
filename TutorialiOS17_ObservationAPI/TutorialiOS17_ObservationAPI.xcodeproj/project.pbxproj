@@ -11,6 +11,17 @@
 		440BDDC72ABB310500F2AA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BDDC62ABB310500F2AA58 /* ContentView.swift */; };
 		440BDDC92ABB310600F2AA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440BDDC82ABB310600F2AA58 /* Assets.xcassets */; };
 		440BDDCC2ABB310600F2AA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440BDDCB2ABB310600F2AA58 /* Preview Assets.xcassets */; };
+		441E716C2ABB8FA40051F4D4 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E716B2ABB8FA40051F4D4 /* Employees.swift */; };
+		441E716E2ABB90A60051F4D4 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E716D2ABB90A60051F4D4 /* Gender.swift */; };
+		441E71702ABB91520051F4D4 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E716F2ABB91520051F4D4 /* Department.swift */; };
+		441E71722ABB92C10051F4D4 /* EmployeesDemo.json in Resources */ = {isa = PBXBuildFile; fileRef = 441E71712ABB92C00051F4D4 /* EmployeesDemo.json */; };
+		441E71742ABB92CD0051F4D4 /* EmployeesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 441E71732ABB92CD0051F4D4 /* EmployeesData.json */; };
+		441E71762ABB952E0051F4D4 /* PersistenceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E71752ABB952E0051F4D4 /* PersistenceInteractor.swift */; };
+		441E71782ABB9ED30051F4D4 /* PersistencePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E71772ABB9ED30051F4D4 /* PersistencePreview.swift */; };
+		441E717A2ABBA3A80051F4D4 /* EmployeesLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E71792ABBA3A80051F4D4 /* EmployeesLogic.swift */; };
+		441E717C2ABBA9710051F4D4 /* GestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E717B2ABBA9710051F4D4 /* GestionViewModel.swift */; };
+		44E96A032ABC7B6900B464FE /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E96A022ABC7B6900B464FE /* EmployeeCell.swift */; };
+		44E96A052ABC83E900B464FE /* DetailEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E96A042ABC83E900B464FE /* DetailEmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		440BDDC62ABB310500F2AA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		440BDDC82ABB310600F2AA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440BDDCB2ABB310600F2AA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		441E716B2ABB8FA40051F4D4 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		441E716D2ABB90A60051F4D4 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		441E716F2ABB91520051F4D4 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		441E71712ABB92C00051F4D4 /* EmployeesDemo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmployeesDemo.json; sourceTree = "<group>"; };
+		441E71732ABB92CD0051F4D4 /* EmployeesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmployeesData.json; sourceTree = "<group>"; };
+		441E71752ABB952E0051F4D4 /* PersistenceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceInteractor.swift; sourceTree = "<group>"; };
+		441E71772ABB9ED30051F4D4 /* PersistencePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencePreview.swift; sourceTree = "<group>"; };
+		441E71792ABBA3A80051F4D4 /* EmployeesLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesLogic.swift; sourceTree = "<group>"; };
+		441E717B2ABBA9710051F4D4 /* GestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionViewModel.swift; sourceTree = "<group>"; };
+		44E96A022ABC7B6900B464FE /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		44E96A042ABC83E900B464FE /* DetailEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEmployee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				440BDDC42ABB310500F2AA58 /* TutorialiOS17_ObservationAPIApp.swift */,
-				440BDDC62ABB310500F2AA58 /* ContentView.swift */,
-				440BDDD32ABB32D300F2AA58 /* Resources */,
+				441E716A2ABB8F5C0051F4D4 /* Views */,
+				441E71692ABB8F1B0051F4D4 /* ViewModel */,
+				441E71682ABB8EB40051F4D4 /* ModelLogic */,
+				441E71672ABB8E550051F4D4 /* Interactor */,
 				440BDDD22ABB32B700F2AA58 /* Model */,
-				440BDDC82ABB310600F2AA58 /* Assets.xcassets */,
+				440BDDD32ABB32D300F2AA58 /* Resources */,
 				440BDDCA2ABB310600F2AA58 /* Preview Content */,
 			);
 			path = TutorialiOS17_ObservationAPI;
@@ -64,6 +88,8 @@
 		440BDDCA2ABB310600F2AA58 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				441E71712ABB92C00051F4D4 /* EmployeesDemo.json */,
+				441E71772ABB9ED30051F4D4 /* PersistencePreview.swift */,
 				440BDDCB2ABB310600F2AA58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -72,6 +98,9 @@
 		440BDDD22ABB32B700F2AA58 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				441E716B2ABB8FA40051F4D4 /* Employees.swift */,
+				441E716D2ABB90A60051F4D4 /* Gender.swift */,
+				441E716F2ABB91520051F4D4 /* Department.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -79,8 +108,44 @@
 		440BDDD32ABB32D300F2AA58 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				441E71732ABB92CD0051F4D4 /* EmployeesData.json */,
+				440BDDC82ABB310600F2AA58 /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		441E71672ABB8E550051F4D4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				441E71752ABB952E0051F4D4 /* PersistenceInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		441E71682ABB8EB40051F4D4 /* ModelLogic */ = {
+			isa = PBXGroup;
+			children = (
+				441E71792ABBA3A80051F4D4 /* EmployeesLogic.swift */,
+			);
+			name = ModelLogic;
+			sourceTree = "<group>";
+		};
+		441E71692ABB8F1B0051F4D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				441E717B2ABBA9710051F4D4 /* GestionViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		441E716A2ABB8F5C0051F4D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				440BDDC62ABB310500F2AA58 /* ContentView.swift */,
+				44E96A022ABC7B6900B464FE /* EmployeeCell.swift */,
+				44E96A042ABC83E900B464FE /* DetailEmployee.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				440BDDCC2ABB310600F2AA58 /* Preview Assets.xcassets in Resources */,
+				441E71742ABB92CD0051F4D4 /* EmployeesData.json in Resources */,
 				440BDDC92ABB310600F2AA58 /* Assets.xcassets in Resources */,
+				441E71722ABB92C10051F4D4 /* EmployeesDemo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441E717A2ABBA3A80051F4D4 /* EmployeesLogic.swift in Sources */,
+				441E717C2ABBA9710051F4D4 /* GestionViewModel.swift in Sources */,
+				441E716E2ABB90A60051F4D4 /* Gender.swift in Sources */,
 				440BDDC72ABB310500F2AA58 /* ContentView.swift in Sources */,
+				441E71702ABB91520051F4D4 /* Department.swift in Sources */,
+				441E716C2ABB8FA40051F4D4 /* Employees.swift in Sources */,
 				440BDDC52ABB310500F2AA58 /* TutorialiOS17_ObservationAPIApp.swift in Sources */,
+				441E71762ABB952E0051F4D4 /* PersistenceInteractor.swift in Sources */,
+				441E71782ABB9ED30051F4D4 /* PersistencePreview.swift in Sources */,
+				44E96A032ABC7B6900B464FE /* EmployeeCell.swift in Sources */,
+				44E96A052ABC83E900B464FE /* DetailEmployee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
