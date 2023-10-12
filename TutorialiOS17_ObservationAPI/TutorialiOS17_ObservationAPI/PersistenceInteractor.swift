@@ -23,7 +23,7 @@ protocol PersistenceInteractor {
 extension PersistenceInteractor {
 	func loadEmpleados() throws -> [Employee] {
 		var url = docURL
-		if !FileManager.default.fileExists(atPath: url.path()) {
+		if !FileManager.default.fileExists(atPath: url.path) {
 			url = bundleURL
 		}
 		let data = try Data(contentsOf: url)
