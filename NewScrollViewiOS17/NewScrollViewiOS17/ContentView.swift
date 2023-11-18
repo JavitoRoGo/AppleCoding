@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+//	@State var id: Datos.ID?
+	
     var body: some View {
 		ScrollView(.horizontal) {
 			LazyHStack {
@@ -42,7 +44,7 @@ struct ContentView: View {
 		// para desplazarse con un comportamiento determinado
 		.scrollTargetBehavior(.viewAligned)
 		// ya no hace falta usar el ScrollViewReader para referencia el elemento, basta con asociarle un id a un elemento que lo identifique
-//		.scrollPosition(id: $algo)
+//		.scrollPosition(id: $id)
     }
 }
 
